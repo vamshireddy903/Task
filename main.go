@@ -26,7 +26,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 			</style>
 		</head>
 		<body>
-			<h1>Hello from Jenkins CI/CD Go App 🚀</h1>
+			<h1>Hello from Jenkins CI/CD Go App </h1>
 			<p>Build and Deployed via Jenkins!</p>
 		</body>
 		</html>
