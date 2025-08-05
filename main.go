@@ -36,6 +36,6 @@ func handler(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	http.HandleFunc("/", handler)
-	fmt.Println("Starting server on port 8080...")
+	fmt.Println("Starting server on port 5000...") // ✅ Fixed message
 	http.ListenAndServe(":5000", nil)
 }
