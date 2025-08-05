@@ -9,5 +9,5 @@ RUN go build -o go-app
 FROM alpine:latest
 WORKDIR /root/
 COPY --from=builder /app/go-app .
-EXPOSE 8080
+EXPOSE 5000
 ENTRYPOINT ["./go-app"]
